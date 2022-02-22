@@ -1,0 +1,291 @@
+<style>
+
+  
+  .marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: {{ section.settings.background }};
+    color: {{ section.settings.text_color }};
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  {% if section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 != blank %}
+  .custom-announcement-1, .custom-announcement-2, .custom-announcement-3{
+    padding-right: 100px;
+  }
+  {% elsif section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 == blank %}
+  .custom-announcement-1, .custom-announcement-2{
+    padding-right: 100px;
+  }
+  {% elsif section.settings.text != blank and section.settings.text2 == blank and section.settings.text3 == blank %}
+  .custom-announcement-1{
+    padding-right: 700px;
+  }
+  {% endif %}
+
+@media only screen and (max-width: 741px){
+   {% if section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 != blank %}
+  .custom-announcement-1, .custom-announcement-2, .custom-announcement-3{
+    padding-right: 50px;
+  }
+  {% elsif section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 == blank %}
+  .custom-announcement-1, .custom-announcement-2{
+    padding-right: 50px;
+  }
+  {% elsif section.settings.text != blank and section.settings.text2 == blank and section.settings.text3 == blank %}
+  .custom-announcement-1{
+    padding-right: 50px;
+  }
+  {% endif %}
+}
+  
+
+.custom-announcement-1 a, .custom-announcement-2 a, .custom-announcement-3 a{
+  transition: all 0.3s;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.custom-announcement-1 a:hover, .custom-announcement-2 a:hover, .custom-announcement-3 a:hover{
+  color: {{ section.settings.link_hover_color }};
+}
+
+#shopify-section-{{ section.id }} {
+  --heading-color: {{ section.settings.text_color.red }}, {{ section.settings.text_color.green }}, {{ section.settings.text_color.blue }};
+  --text-color: {{ section.settings.text_color.red }}, {{ section.settings.text_color.green }}, {{ section.settings.text_color.blue }};
+  --primary-button-background: {{ section.settings.button_background.red }}, {{ section.settings.button_background.green }}, {{ section.settings.button_background.blue }};
+  --primary-button-text-color: {{ section.settings.button_text_color.red }}, {{ section.settings.button_text_color.green }}, {{ section.settings.button_text_color.blue }};
+  --section-background: {{ section.settings.background.red }}, {{ section.settings.background.green }}, {{ section.settings.background.blue }};
+  z-index: 5; /* Make sure it goes over header */
+
+  {%- if section.settings.announcement_bar_position == 'sticky' or section.settings.announcement_bar_position == 'sticky_mobile' -%}
+    position: -webkit-sticky;
+    position: sticky;
+  {%- else -%}
+    position: relative;
+  {%- endif -%}
+
+  top: 0;
+}
+
+@media screen and (min-width: 741px) {
+  :root {
+    --enable-sticky-announcement-bar: 0;
+  }
+
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.announcement_bar_position == 'sticky' or section.settings.announcement_bar_position == 'sticky_desktop' -%}
+      position: -webkit-sticky;
+      position: sticky;
+    {%- else -%}
+      position: relative;
+    {%- endif -%}
+  }
+}
+  
+  :root {
+    --enable-sticky-announcement-bar: 0;
+  }
+
+  
+</style>
+
+{% if section.settings.show_announcement_bar %}
+
+  <announcement-bar class="marquee bold-heading">
+    {% if section.settings.text != blank %}
+    <div class="custom-announcement-1"> {{ section.settings.text }}  {% if section.settings.learn_more_text != blank %}<a href="{{ section.settings.learn_more_link }}">{{ section.settings.learn_more_text }}</a>{% endif %}</div>
+    {% endif %}
+    {% if section.settings.text2 != blank %}
+    <div class="custom-announcement-2"> {{ section.settings.text2 }}  {% if section.settings.learn_more_text2 != blank %}<a href="{{ section.settings.learn_more_link2 }}">{{ section.settings.learn_more_text2 }}</a>{% endif %}</div>   
+    {% endif %}
+    {% if section.settings.text3 != blank %}
+    <div class="custom-announcement-3"> {{ section.settings.text3 }}  {% if section.settings.learn_more_text3 != blank %}<a href="{{ section.settings.learn_more_link3 }}">{{ section.settings.learn_more_text3 }}</a>{% endif %}</div> 
+    {% endif %}
+</announcement-bar>
+
+{% comment%} modified function structure and speed - am {% endcomment%}
+{% if section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 != blank %}
+<script type="text/javascript">
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      $('.marquee').slick({
+        speed: 9000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        centerMode: true,
+        centerPadding: '100px',
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: true,
+        infinite: true,
+        initialSlide: 1,
+        arrows: false,
+        buttons: false
+      });
+    }
+  });
+</script>
+
+{% elsif section.settings.text != blank and section.settings.text2 != blank and section.settings.text3 == blank %}
+
+<script type="text/javascript">
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      $(".marquee").children().clone(true, true).appendTo(".marquee");
+
+      $('.marquee').slick({
+        speed: 19000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        centerMode: true,
+        centerPadding: '100px',
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: true,
+        infinite: true,
+        initialSlide: 1,
+        arrows: false,
+        buttons: false
+      });
+    }
+  });
+</script>
+
+{% elsif section.settings.text != blank and section.settings.text2 == blank and section.settings.text3 == blank %}
+
+<script type="text/javascript">
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      $('.marquee').slick({
+        speed: 5000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        centerMode: true,
+        centerPadding: '100px',
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: true,
+        infinite: true,
+        initialSlide: 0,
+        arrows: false,
+        buttons: false
+      });
+    }
+  });
+</script>
+
+{% endif %}
+
+{% endif %}
+
+{% schema %}
+{
+"name": "Announcement Bar Marquee",
+"class": "shopify-section--announcement-bar",
+"settings": [
+  {
+    "type": "checkbox",
+    "id": "show_announcement_bar",
+    "label": "Show Announcement Bar",
+    "default": true
+  },
+  {
+    "type": "header",
+    "content": "Colors"
+  },
+  {
+    "type": "color",
+    "id": "background",
+    "label": "Background",
+    "default": "#efecea"
+  },
+  {
+    "type": "color",
+    "id": "text_color",
+    "label": "Text",
+    "default": "#baaa9e"
+  },
+  {
+    "type": "color",
+    "id": "link_hover_color",
+    "label": "Link Hover",
+    "default": "#ffffff"
+  },
+      {
+        "type": "header",
+        "content": "Message 1"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Announce something here"
+      },
+      {
+        "type": "text",
+        "id": "learn_more_text",
+        "label": "Learn more text",
+        "default": "Learn more"
+      },
+      {
+        "type": "url",
+        "id": "learn_more_link",
+        "label": "Link URL",
+        "default": "/"
+      },
+  {
+      "type": "header",
+      "content": "Message 2"
+  },
+      {
+        "type": "text",
+        "id": "text2",
+        "label": "Text",
+        "default": "Announce something here"
+      },
+      {
+        "type": "text",
+        "id": "learn_more_text2",
+        "label": "Learn more text",
+        "default": "Learn more"
+      },
+      {
+        "type": "url",
+        "id": "learn_more_link2",
+        "label": "Link URL",
+        "default": "/"
+      },
+  {
+      "type": "header",
+      "content": "Message 3"
+      },
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Text",
+          "default": "Announce something here"
+        },
+        {
+          "type": "text",
+          "id": "learn_more_text3",
+          "label": "Learn more text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "learn_more_link3",
+          "label": "Link URL",
+          "default": "/"
+        }
+],
+"default": {
+
+}
+}
+{% endschema %}

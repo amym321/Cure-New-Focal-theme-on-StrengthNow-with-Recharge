@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "16451215273daff05f": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Store Locator",
+        "content": "<p>Find us in the following retailers and more!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16451219142f10a088": {
+      "type": "logo-list",
+      "blocks": {
+        "1645121914d8f13158-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/cvs-pharmacy-logo-stacked.png",
+            "link": ""
+          }
+        },
+        "1645121914d8f13158-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/GNC-Logo.png",
+            "link": ""
+          }
+        },
+        "1645121914d8f13158-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/2560px-Central_Market.svg_4cbb262b-fd00-451d-a818-3b198c4f62d9.png",
+            "link": ""
+          }
+        },
+        "1645121914d8f13158-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/2dff5cb567ea130d8f7f3a8362b2c037.png",
+            "link": ""
+          }
+        },
+        "1645121914d8f13158-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/j30qLnEc6dCrLlyOVWoqDsnP1qgXM24D.png",
+            "link": ""
+          }
+        },
+        "1645121914d8f13158-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Good-Food-Market-logo-lockup.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645121914d8f13158-0",
+        "1645121914d8f13158-1",
+        "1645121914d8f13158-2",
+        "1645121914d8f13158-3",
+        "1645121914d8f13158-4",
+        "1645121914d8f13158-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "1645121468a5063dd5": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "16451215273daff05f",
+    "16451219142f10a088",
+    "main",
+    "1645121468a5063dd5"
+  ]
+}

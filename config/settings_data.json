@@ -1,0 +1,680 @@
+{
+  "current": {
+    "header_style": "custom",
+    "button_border_radius": 30,
+    "block_border_radius": "none",
+    "vertical_spacing": "large",
+    "heading_color": "#baaa9e",
+    "text_color": "#baaa9e",
+    "background": "#ffffff",
+    "secondary_background": "#faf9f9",
+    "success_color": "#2e9e7b",
+    "error_color": "#de2a2a",
+    "header_background": "#ffffff",
+    "header_text_color": "#baaa9e",
+    "footer_background": "#baaa9e",
+    "footer_text_color": "#ffffff",
+    "primary_button_background": "#baaa9e",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#baaa9e",
+    "secondary_button_text_color": "#ffffff",
+    "product_rating_color": "#baaa9e",
+    "product_on_sale_accent": "#3e7b8f",
+    "product_sold_out_accent": "#3e7b8f",
+    "product_custom_label_background": "#baaa9e",
+    "product_custom_label_2_background": "#3e7b8f",
+    "product_in_stock_text_color": "#2e9e7b",
+    "product_low_stock_text_color": "#de2a2a",
+    "heading_font": "sans-serif",
+    "heading_font_size": "medium",
+    "heading_text_transform": "normal",
+    "text_font": "sans-serif",
+    "text_font_size": 16,
+    "currency_code_enabled": false,
+    "stagger_products_apparition": true,
+    "stagger_blog_posts_apparition": false,
+    "reveal_product_media": true,
+    "round_color_swatches": true,
+    "show_vendor": true,
+    "show_secondary_image": true,
+    "product_add_to_cart": true,
+    "show_product_rating": false,
+    "product_color_display": "count",
+    "product_image_size": "square",
+    "search_enable_products": true,
+    "search_enable_blog_posts": true,
+    "search_enable_collections": false,
+    "search_unavailable_products": "hide",
+    "cart_type": "drawer",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "USD:0",
+    "social_facebook": "https:\/\/www.facebook.com\/curehydration\/",
+    "social_instagram": "https:\/\/www.instagram.com\/cure\/",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@curehydration",
+    "favicon": "shopify:\/\/shop_images\/CURE-FAVICON.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/curelogo-coconut.png",
+    "checkout_logo_position": "center",
+    "checkout_body_background_color": "#f5f2f1",
+    "checkout_sidebar_background_color": "#baaa9e",
+    "checkout_accent_color": "#baaa9e",
+    "checkout_button_color": "#baaa9e",
+    "checkout_error_color": "#de2a2a",
+    "accent_color": "#405de6",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message-1": {
+            "type": "message",
+            "settings": {
+              "text": "Announce something here",
+              "learn_more_text": "Learn more",
+              "image": "shopify:\/\/shop_images\/Untitled-4.jpg",
+              "title": "Peach Black Tea",
+              "content": "<p>aewfwefef<\/p>",
+              "button_text": "Button",
+              "button_link": "shopify:\/\/pages\/faq"
+            }
+          },
+          "a465250d-c715-4355-9d98-c715c6a1721c": {
+            "type": "message",
+            "settings": {
+              "text": "Announce something here",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "message-1",
+          "a465250d-c715-4355-9d98-c715c6a1721c"
+        ],
+        "settings": {
+          "announcement_bar_position": "non_sticky",
+          "announcement_text_size": "small",
+          "autoplay": false,
+          "cycle_speed": 5,
+          "background": "#efecea",
+          "text_color": "#baaa9e",
+          "button_background": "#ffffff",
+          "button_text_color": "#baaa9e"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "a80dbde6-de05-4a9d-9306-0b0540852283": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Shop",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/Cure-Pouch-Packet-Lime.jpg",
+              "image_1_heading": "Shop All",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/collections\/shop-all",
+              "image_2": "shopify:\/\/shop_images\/Cure-Pouch-Packet-BerryPomjpg_3c7dc130-065a-4a47-8d50-7af436ae129d.jpg",
+              "image_2_heading": "Hydration",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/collections\/hydration",
+              "image_3": "shopify:\/\/shop_images\/Cure-Pouch-Packet-Peach_d944e984-fcff-46bf-a353-00a80e85d985.jpg",
+              "image_3_heading": "Energy",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/collections\/energy",
+              "image_4": "shopify:\/\/shop_images\/Cure-Pouch-Packet-Watermelon.jpg",
+              "image_4_heading": "Extras",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/collections\/shop-all",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "c5c49309-cac5-44ae-8eb4-d0f8dd4a1930": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Learn",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/211122_CL_Cure_12_Portrait_895_22fe747d-ac98-44de-9886-7f27738f0a7b.jpg",
+              "image_1_heading": "Our Story",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/pages\/our-story",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3": "shopify:\/\/shop_images\/DTS_Skin_Deep_Daniel_Faro_4245.png",
+              "image_3_heading": "Science-Backed Hydration",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/pages\/science-backed-hydration",
+              "image_4": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5850-_1.png",
+              "image_4_heading": "Social Impact",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "a80dbde6-de05-4a9d-9306-0b0540852283",
+          "c5c49309-cac5-44ae-8eb4-d0f8dd4a1930"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/curelogo-coconut.png",
+          "logo_max_width": 145,
+          "mobile_logo_max_width": 130,
+          "navigation_menu": "main-menu",
+          "sidebar_navigation_menu": "",
+          "header_layout": "logo_center_navigation_inline",
+          "show_icons": false,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "enable_transparent_header": true,
+          "transparent_header_text_color": "#ffffff",
+          "transparent_logo": "shopify:\/\/shop_images\/curelogo.png",
+          "search_menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "af372627-da31-4bee-9a72-b3b4dd9193d7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/curelogo.png",
+              "image_width": 100
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "cure"
+            }
+          },
+          "96e3b714-646c-45d5-aa87-8a7759c6f017": {
+            "type": "links",
+            "settings": {
+              "menu": "shop"
+            }
+          },
+          "6a86f212-f903-40fc-9540-096b651c7e63": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "social_media": {
+            "type": "social_media",
+            "settings": {
+              "title": "Follow us",
+              "content": ""
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "10% off your first order",
+              "content": ""
+            }
+          }
+        },
+        "block_order": [
+          "af372627-da31-4bee-9a72-b3b4dd9193d7",
+          "links",
+          "96e3b714-646c-45d5-aa87-8a7759c6f017",
+          "6a86f212-f903-40fc-9540-096b651c7e63",
+          "social_media",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "show_cookie_bar": true,
+          "cookie_bar_title": "Cookie policy",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "enable": false,
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "image": "shopify:\/\/shop_images\/Untitled-5.jpg",
+          "image_position": "left",
+          "title": "Get 10% off",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "mini-cart": {
+        "type": "mini-cart",
+        "settings": {
+          "show_order_note": true,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify:\/\/collections\/shop-all",
+          "show_recommendations": true,
+          "recommendations_title": "Other Favorites"
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "static-text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-box",
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            }
+          },
+          "static-text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-phone",
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-lock",
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.<\/p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-email",
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "reveal_on_scroll": true,
+          "image": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5837.jpg",
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "text_position": "center",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "announcement-bar-marquee": {
+        "type": "announcement-bar-marquee",
+        "settings": {
+          "show_announcement_bar": true,
+          "background": "#f5f2f1",
+          "text_color": "#baaa9e",
+          "link_hover_color": "#ccb9aa",
+          "text": "*NEW LOOK. SAME GREAT PRODUCT*",
+          "learn_more_text": "",
+          "learn_more_link": "",
+          "text2": "FREE U.S. SHIPPING ON ALL ORDERS",
+          "learn_more_text2": "",
+          "learn_more_link2": "",
+          "text3": "NEW HYDRATION FLAVOR -",
+          "learn_more_text3": "LIME",
+          "learn_more_link3": "shopify:\/\/products\/lime"
+        }
+      },
+      "header-custom": {
+        "type": "header-custom",
+        "blocks": {
+          "d8fdafc4-4cd9-4a17-b0de-922bd8235cb2": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Shop",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/ShopAll.jpg",
+              "image_1_heading": "Shop All",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/collections\/shop-all",
+              "image_2": "shopify:\/\/shop_images\/Hydration.jpg",
+              "image_2_heading": "Hydration",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/collections\/hydration",
+              "image_3": "shopify:\/\/shop_images\/Energy.jpg",
+              "image_3_heading": "Energy",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/collections\/energy",
+              "image_4": "shopify:\/\/shop_images\/cure-bottle.jpg",
+              "image_4_heading": "Extras",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/collections\/extras",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "ce75d733-9225-4f7c-85e6-eb87751776fa": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Learn",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/211122_CL_Cure_12_Portrait_895_22fe747d-ac98-44de-9886-7f27738f0a7b.jpg",
+              "image_1_heading": "Our Story",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/pages\/our-story",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3": "shopify:\/\/shop_images\/DTS_Skin_Deep_Daniel_Faro_4245.png",
+              "image_3_heading": "Science-backed hydration",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/pages\/science-backed-hydration",
+              "image_4": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5850-_1.png",
+              "image_4_heading": "Social Impact",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/pages\/social-impact-1",
+              "image_5": "shopify:\/\/shop_images\/DTS_Our_Summer_Daniel_Faro_5808.jpg",
+              "image_5_heading": "Blog",
+              "image_5_text": "",
+              "image_5_link": "shopify:\/\/blogs\/blog",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d8fdafc4-4cd9-4a17-b0de-922bd8235cb2",
+          "ce75d733-9225-4f7c-85e6-eb87751776fa"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/curelogo-coconut.png",
+          "logo_max_width": 130,
+          "mobile_logo_max_width": 130,
+          "navigation_menu": "menu-left",
+          "navigation_menu2": "menu-right",
+          "sidebar_navigation_menu": "main-menu",
+          "header_layout": "logo_center_navigation_inline",
+          "show_icons": false,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "enable_transparent_header": true,
+          "transparent_header_text_color": "#ffffff",
+          "transparent_logo": "shopify:\/\/shop_images\/curelogo.png",
+          "search_menu": "main-menu"
+        }
+      },
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/curelogo-coconut.png",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 100,
+          "image": "shopify:\/\/shop_images\/cure-card.jpg",
+          "background": "#f5f2f1",
+          "content_background": "#ffffff",
+          "text_color": "#baaa9e"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Carbon": {
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#282828",
+      "text_color": "#282828",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#282828",
+      "footer_background": "#282828",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#405de6",
+      "secondary_button_background": "#f3ff34",
+      "secondary_button_text_color": "#282828",
+      "product_on_sale_accent": "#de2a2a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "zurich_extended_n8",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "zurich_n4",
+      "text_font_size": 15,
+      "currency_code_enabled": false,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "show_product_rating": false,
+      "cart_type": "message",
+      "cart_show_free_shipping_threshold": true,
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "normal",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#f3ff34",
+            "text_color": "#282828",
+            "button_background": "#282828",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_left_navigation_center",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Ivory": {
+      "button_border_radius": 4,
+      "block_border_radius": "small",
+      "heading_color": "#1a1a1a",
+      "text_color": "#1a1a1a",
+      "secondary_background": "#f5f1ec",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#56112a",
+      "header_text_color": "#ffffff",
+      "footer_background": "#56112a",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#56112a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f7aea6",
+      "secondary_button_text_color": "#56112a",
+      "product_on_sale_accent": "#913b59",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3e5b6",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "itc_caslon_no_224_n5",
+      "heading_font_size": "medium",
+      "heading_text_transform": "normal",
+      "text_font": "avenir_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f6f3ed",
+      "checkout_accent_color": "#353535",
+      "checkout_button_color": "#353535",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#f7aea6",
+            "text_color": "#56112a",
+            "button_background": "#56112a",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

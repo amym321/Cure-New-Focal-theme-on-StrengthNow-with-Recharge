@@ -1,0 +1,596 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1642627368fefe7f9b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Science-Backed-Hydration.jpg",
+        "subheading": "",
+        "title": "Hydration is the foundation of health.",
+        "content": "<p>But science shows that staying hydrated often requires more than water alone.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "bottom_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1643044510f40a8515": {
+      "type": "custom-image-text",
+      "settings": {
+        "title": "You’re probably dehydrated. (It’s okay, 75% of Americans are, too.)",
+        "image": "shopify:\/\/shop_images\/img.png",
+        "title_left": "And water alone is not enough.",
+        "content_left": "<p>We think the solution to dehydration is simply drinking more water, but science shows that staying hydrated often requires more than water alone. <br\/><br\/>Without essential electrolytes like sodium and potassium, we can’t replenish ourselves adequately from everyday life: exercise, travel, late nights or illness.<br\/><br\/>Replacing electrlytes is the key to hydration. And Cure makes it easy.<\/p>",
+        "title_right": "Symptoms of<br> dehydration",
+        "content_right": "<p>Fatigue<br\/>Muscle Cramps<br\/>Headaches<br\/>Loss of Focus<br\/>Flu Like Symptoms<\/p>"
+      }
+    },
+    "164262816587e0928c": {
+      "type": "image-with-text",
+      "blocks": {
+        "16426281659cc33072-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sCIENCE.jpg",
+            "tab_label": "Science",
+            "subheading": "",
+            "title": "Backed by Science",
+            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet of Cure contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. ORS is as effective as an IV drip, but drinkable.<\/p><p>Since its inception, ORS has saved over 50 million lives from severe dehydration around the world.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16426281659cc33072-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16447045496cfd60d5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644704549495e8e73-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Plant.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Powered by Nature",
+            "content": "<p>Unlike the sugary, fluorescent-blue sports drinks from your past, Cure's Hydrating Electrolyte Mix was formulated for effective hydration without all the junk. Our plant-based formula has 4x the electrolytes of leading sports drinks and is made with real ingredients like coconut water and pink Himalayan salt. No added sugar or anything artificial, just natural fruit flavors you'll love to drink.<br\/><br\/>Science has never tasted this good.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644704549495e8e73-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1642628267df666f67": {
+      "type": "logo-list",
+      "blocks": {
+        "5749931d-78d0-4e6a-aae7-6ad032615fa7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_SCIENCE-BACKEDHYDRATION_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
+        "1642628267f313917d-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_PLANT_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
+        "1642628267f313917d-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NONGMO_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
+        "1642628267f313917d-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NOSUGAR_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
+        "1642628267f313917d-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_VEGAN_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
+        "1642628267f313917d-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_GLUTENFREE_GRAY_TEXT.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5749931d-78d0-4e6a-aae7-6ad032615fa7",
+        "1642628267f313917d-0",
+        "1642628267f313917d-1",
+        "1642628267f313917d-2",
+        "1642628267f313917d-3",
+        "1642628267f313917d-4"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "1643049350b81fe062": {
+      "type": "real-ingredients",
+      "blocks": {
+        "638795ca-4410-42c9-aa15-c9997ecd906a": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1ingredients.jpg",
+            "title": "Coconut Water",
+            "content": "<p>Nature’s source of <strong>potassium<\/strong> (4x bananas and 8-10x sports drinks).<br\/>Contains glucose, antioxidants, magnesium, calcium, and other nutrients. <\/p>"
+          }
+        },
+        "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_2ingredients.jpg",
+            "title": "Pink Himalayan Salt",
+            "content": "<p>Nature’s natural source of <strong>sodium. <\/strong>Sodium is a major electrolyte, so don’t avoid it. <br\/>It is absolutely imperative for proper hydration.<\/p>"
+          }
+        },
+        "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_8ingredients.jpg",
+            "title": "Non-GMO Citric Acid",
+            "content": "<p>Used for added flavor and naturally found in citrus fruits. <br\/>Ours is from cassava root. <\/p>"
+          }
+        },
+        "dab59078-1b8d-4d2b-93fe-8c0438b33b8a": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_2_copyingredients.jpg",
+            "title": "Lemon Juice Powder",
+            "content": "<p>Made from real lemons.<br\/>Added for flavor.<\/p>"
+          }
+        },
+        "78196c00-1a31-4dca-b94e-d021b974523b": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_6ingredients.jpg",
+            "title": "Sodium Citrate",
+            "content": "<p>Sodium from citric acid,<br\/>used for function.<\/p>"
+          }
+        },
+        "7ae44fb1-fa2a-4206-8714-dd75d976e31f": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_5ingredients.jpg",
+            "title": "Organic Stevia Extract",
+            "content": "<p>Plant-based sweetener with no sugar or calories.<br\/>Despite the common misconception, stevia is not an artificial sweetener.<\/p>"
+          }
+        },
+        "072dc1f6-79e4-4023-a445-ab5f09de1af4": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_4ingredients.jpg",
+            "title": "Monk Fruit Extract",
+            "content": "<p>A vine-ripened fruit native to Asia that helps round out the flavor<br\/>so that there is no bitter aftertaste.<\/p>"
+          }
+        },
+        "9f2b68b1-9048-4780-873e-c8258c49b2f3": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_7cure-ingredients.jpg",
+            "title": "Fruit Juice Powder & Organic Flavors",
+            "content": "<p>Added for taste and preference, <br\/>so there is a delicious Cure flavor for everyone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "638795ca-4410-42c9-aa15-c9997ecd906a",
+        "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea",
+        "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c",
+        "dab59078-1b8d-4d2b-93fe-8c0438b33b8a",
+        "78196c00-1a31-4dca-b94e-d021b974523b",
+        "7ae44fb1-fa2a-4206-8714-dd75d976e31f",
+        "072dc1f6-79e4-4023-a445-ab5f09de1af4",
+        "9f2b68b1-9048-4780-873e-c8258c49b2f3"
+      ],
+      "settings": {
+        "title": "Made with Real Ingredients.<br> Nothing Artificial.",
+        "description": "<p>Sports drinks are full of added sugar and artificial ingredients. Cure is made with premium and plant-based ingredients and mixed into tasty perfection.<\/p>"
+      }
+    },
+    "1644890844a2fef25a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "The NO List",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#baaa9e",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16448941453a7c8e98": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "16448941452f57ea48-1": {
+          "type": "question",
+          "settings": {
+            "title": "NO Added Sugars",
+            "answer": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
+          }
+        },
+        "16448941452f57ea48-2": {
+          "type": "question",
+          "settings": {
+            "title": "NO Artificial Sweeteners",
+            "answer": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>"
+          }
+        },
+        "16448941452f57ea48-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16448941452f57ea48-1",
+        "16448941452f57ea48-2",
+        "16448941452f57ea48-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "The NO List",
+        "content": "",
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
+    "1644890654509fb96e": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "164489065451b4b2d1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
+            "title": "NO Added Sugars",
+            "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164489065451b4b2d1-0",
+        "164489065451b4b2d1-1",
+        "164489065451b4b2d1-2",
+        "164489065451b4b2d1-3"
+      ],
+      "settings": {
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
+    "16448910400c96333c": {
+      "type": "multi-column",
+      "blocks": {
+        "16448910405ba49995-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Added Sugars",
+            "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Artificial Sweeteners",
+            "content": "<p>We never use artificial sweeteners including sucralose, saccharin, aspartame, acesulfame potassium, and neotame in our products.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Sugar Alcohols",
+            "content": "<p>We never use sugar alcohols including erythritol, glycerol, isomalt, lactitol, maltitol, mannitol, sorbitol, xylitol in our products.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Artificial Flavors or Colors",
+            "content": "<p>We never use artificial flavors or colors in our products.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16448910405ba49995-0",
+        "16448910405ba49995-1",
+        "16448910405ba49995-2",
+        "16448910405ba49995-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "The No List",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
+    "1642627495a6d25ec8": {
+      "type": "gallery",
+      "blocks": {
+        "1642627495e9e5ab43-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-Comparisons-water.jpg",
+            "caption": ""
+          }
+        },
+        "1642627495e9e5ab43-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-Comparisons-sportsdrinks.jpg",
+            "caption": ""
+          }
+        },
+        "1642627495e9e5ab43-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-Comparisons-electrolyte-water.jpg",
+            "caption": ""
+          }
+        },
+        "8fcbb161-9424-44d5-ad71-f0013c6bf4cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-Comparisons-powder.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642627495e9e5ab43-0",
+        "1642627495e9e5ab43-1",
+        "1642627495e9e5ab43-2",
+        "8fcbb161-9424-44d5-ad71-f0013c6bf4cc"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Other options fall short",
+        "show_arrows": false,
+        "background": "#efecea",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164262729411fab007": {
+      "type": "custom-comparison-chart",
+      "settings": {
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/Cure-Water.jpg",
+        "title": "Hydrating Electrolyte Mix",
+        "content": "",
+        "text_width": "medium",
+        "text_position": "top_left",
+        "chart_c1r2_value": "25",
+        "chart_c1r2_label": "calories",
+        "chart_c1r3_value": "0g",
+        "chart_c1r3_label": "added sugar",
+        "chart_c1r4_label": "Perfectly balanced electrolytes and plant-based ingredients",
+        "chart_c2r1_value": "Sports Drinks",
+        "chart_c2r2_value": "112",
+        "chart_c2r2_label": "calories",
+        "chart_c2r3_value": "27g",
+        "chart_c2r3_label": "added sugar",
+        "chart_c2r4_label": "Added sugar, low in electrolytes, and made with artificial ingredients",
+        "chart_c3r1_value": "Coconut Water",
+        "chart_c3r2_value": "120",
+        "chart_c3r2_label": "calories",
+        "chart_c3r3_value": "28g",
+        "chart_c3r3_label": "sugar",
+        "chart_c3r4_label": "Unbalanced electrolytes (low sodium, high sugar and potassium)",
+        "chart_c4r1_value": "Other Hydration Mixes",
+        "chart_c4r2_value": "45",
+        "chart_c4r2_label": "calories",
+        "chart_c4r3_value": "11g",
+        "chart_c4r3_label": "added sugar",
+        "chart_c4r4_label": "Synthetic ingredients and added sugars",
+        "chart_bottom_info": "Based on a 16oz serving",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#3e7b8f",
+        "overlay_opacity": 18
+      }
+    },
+    "1642627491015e6f99": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "What's your Flavor?",
+        "title": "Our Hydrating Electrolyte Mix comes in a variety of flavors to ensure there is a Cure for everyone.",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164262737339effc61": {
+      "type": "featured-collections",
+      "blocks": {
+        "16426273730db62386-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydration",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16426273730db62386-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "title2": "Collection 2 Heading",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642627368fefe7f9b",
+    "1643044510f40a8515",
+    "164262816587e0928c",
+    "16447045496cfd60d5",
+    "1642628267df666f67",
+    "1643049350b81fe062",
+    "1644890844a2fef25a",
+    "16448941453a7c8e98",
+    "1644890654509fb96e",
+    "16448910400c96333c",
+    "1642627495a6d25ec8",
+    "164262729411fab007",
+    "1642627491015e6f99",
+    "164262737339effc61"
+  ]
+}

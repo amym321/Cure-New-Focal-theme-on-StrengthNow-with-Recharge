@@ -1,0 +1,464 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "a079c76f-d1b8-4935-ad6f-2972b33e72e5": {
+          "type": "category",
+          "settings": {
+            "title": "Product"
+          }
+        },
+        "2d9f517e-cbd6-4b88-8b96-517df8c5a0cd": {
+          "type": "question",
+          "settings": {
+            "title": "What is Cure Hydration?",
+            "answer": "<p>Cure Hydration is an organic drink mix based on the World Health Organization standard for Oral Rehydration Solution (ORS) but updated for a modern lifestyle. Our formula has 4x the electrolytes of leading sports drinks but contains no added sugar or artificial ingredients. This scientifically balanced formula can be used to help combat dehydration caused by everyday activities including exercise, drinking alcohol, travel, or illness.<\/p>"
+          }
+        },
+        "bd5467b6-fc7e-4ba0-adf7-04b7719d99a3": {
+          "type": "question",
+          "settings": {
+            "title": "What is an Oral Rehydration Solution (ORS)?",
+            "answer": "<p>Oral Rehydration Solution is a formula used to prevent and treat dehydration. An exact ratio of glucose-to-sodium triggers the sodium glucose transporter mechanism in the body that helps to rapidly absorb water and electrolytes into the bloodstream. The formula was originally pioneered by the World Health Organization to treat severe dehydration in people suffering from Cholera and has saved over 50 million lives. ORS is considered to be significantly safer and just as effective as fluid replacement through an IV drip. This innovation in hydration science has over 50 years of research and is considered to be one of the greatest medical advances of the last century.<\/p>"
+          }
+        },
+        "90b7e4b4-45d7-4112-97d6-ebcec72a26db": {
+          "type": "question",
+          "settings": {
+            "title": "Why isn't water enough on it's own?",
+            "answer": "<p>Don’t get us wrong – we love water. But water on its own is often not enough to properly rehydrate our bodies. Sweat loss, alcohol consumption, travel, illness and a variety of other factors can lead to electrolyte imbalances. These imbalances prevent our bodies from effectively absorbing water into our bloodstreams, leading to dehydration.<\/p>"
+          }
+        },
+        "0ed86fff-9bca-488d-b6ce-d92979a828d2": {
+          "type": "question",
+          "settings": {
+            "title": "When should I drink Cure?",
+            "answer": "<p>You should drink Cure whenever you expect to sweat or after you’re feeling the symptoms of dehydration (such as fatigue, headaches, or loss of focus). If you’re doing strenuous exercise, you can drink Cure either before, during, or immediately after your workout. If you’re hoping to ward off a hangover, it’s best to drink Cure before you go to bed. Starting your day with Cure is also a great way to naturally energize!<\/p>"
+          }
+        },
+        "b112bfe9-fafd-4d83-8902-d7a7ade5f80a": {
+          "type": "question",
+          "settings": {
+            "title": "Why does Cure come in powder form and not liquid?",
+            "answer": "<p>Cure is currently sold in powdered form to reduce our carbon footprint and provide customers with a portable hydration option. We use a proprietary technology to evaporate the water from coconuts while maintaining all of the valuable nutrients and minerals you find in coconut water. This way you get all of the benefits from coconut water without the energy required to ship and refrigerate liquids. Our convenient stick pack also requires 95% less packaging than a plastic bottle.<\/p>"
+          }
+        },
+        "06af53ee-40b5-4649-9208-b63cc2b78bab": {
+          "type": "question",
+          "settings": {
+            "title": "Is Cure’s formula organic and Non-GMO?",
+            "answer": "<p>Cure is a certified organic product made with organic ingredients like 100% organic coconut water.<\/p><p>All of our ingredients are Non-GMO. We are currently in the process of getting our certification from Non-GMO Project Verified.<\/p>"
+          }
+        },
+        "d0825495-5e3d-4342-81f7-5c5e2d484f01": {
+          "type": "question",
+          "settings": {
+            "title": "Is Cure considered a supplement?",
+            "answer": "<p>No. Cure is classified by the FDA as a food\/beverage.<\/p>"
+          }
+        },
+        "fca33577-7895-49a9-bf74-c52adf1544f0": {
+          "type": "question",
+          "settings": {
+            "title": "Does Cure contain any allergens?",
+            "answer": "<p>All of our products contain 100% Organic Coconut Water. Coconuts are considered a tree nut, which is a common allergen. As always, it’s a good idea to consult your doctor before using any new product if you have any specific health issues or allergies.<\/p>"
+          }
+        },
+        "a92535f6-c363-4a66-a743-c5cb8ead372e": {
+          "type": "question",
+          "settings": {
+            "title": "How long will Cure stay fresh?",
+            "answer": "<p>When stored at room temperature, Cure will stay fresh for 18 months after the manufacture date. When mixed with a liquid such as water and refrigerated, Cure will stay fresh for up to 1 week. Given the purity of ingredients and lack of additives, clumping sometimes occurs when the powder is exposed to heat or humidity. This does not reduce the effectiveness or flavor of the product - it’s natural and harmless. Simply give the stick pack a quick shake and the powder will dissolve properly once mixed with water.<\/p>"
+          }
+        },
+        "d0171c77-aeed-454c-b4ae-06abe7b27544": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe to consume while you are pregnant?",
+            "answer": "<p>Yes. Cure is OB\/GYN approved but if you are pregnant, we still recommend consulting with your doctor before consuming Cure.<\/p>"
+          }
+        },
+        "8880bfb6-8dc5-4fdd-a185-fd902aaa3ef5": {
+          "type": "question",
+          "settings": {
+            "title": "Cure settles at the bottom of my water bottle - what do I do?",
+            "answer": "<p>Due to the natural ingredients we use in our formula, you may notice that Cure does not fully dissolve in your water bottle. In particular, the pink Himalayan salt can sometimes settle towards the bottom. This is completely normal! Give your water bottle a shake, or stir the formula in your glass and the product will evenly distribute again.<\/p>"
+          }
+        },
+        "35524ac1-88f8-454f-b23f-b88e344029f3": {
+          "type": "question",
+          "settings": {
+            "title": "Does Cure contain artificial sweeteners?",
+            "answer": "<p>No. Cure uses a blend of natural sugar alternatives including Organic Stevia Extract and Monk Fruit that contains no calories. Stevia leaf extract is born from the sweet leaves of the stevia plant and Monk Fruit is a vine-ripened fruit native to Asia that helps round out the flavor so that there is no bitter aftertaste.<\/p><p>Despite the common misconception, stevia is not an artificial sweetener! In order to extract the natural sweetness of the stevia plant, its leaves are harvested, dried, and then steeped in hot water. The resulting extract mixture is then filtered, purified, and finally dried to create a crystalized extract which we use in our formula. Since stevia is much sweeter than sugar (about 200 times sweeter, in fact), we only need to use a very small amount in each serving of Cure.<\/p>"
+          }
+        },
+        "65381934-aa85-4e35-8317-bb905a196262": {
+          "type": "question",
+          "settings": {
+            "title": "What is \"citric acid\" and why do you use it?",
+            "answer": "<p>Citric acid is found naturally in citrus fruits like lemons and limes, and it’s what gives them their tart, sour taste. We use citric acid to balance the flavor of our products. Our citric acid is derived from Non-GMO cassava root. <\/p>"
+          }
+        },
+        "39546419-8020-423d-ae21-9634a7250386": {
+          "type": "question",
+          "settings": {
+            "title": "How is the 28 count pack packaged?",
+            "answer": "<p>Currently when you select the 28 count packs option we send you two 14 count packs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a079c76f-d1b8-4935-ad6f-2972b33e72e5",
+        "2d9f517e-cbd6-4b88-8b96-517df8c5a0cd",
+        "bd5467b6-fc7e-4ba0-adf7-04b7719d99a3",
+        "90b7e4b4-45d7-4112-97d6-ebcec72a26db",
+        "0ed86fff-9bca-488d-b6ce-d92979a828d2",
+        "b112bfe9-fafd-4d83-8902-d7a7ade5f80a",
+        "06af53ee-40b5-4649-9208-b63cc2b78bab",
+        "d0825495-5e3d-4342-81f7-5c5e2d484f01",
+        "fca33577-7895-49a9-bf74-c52adf1544f0",
+        "a92535f6-c363-4a66-a743-c5cb8ead372e",
+        "d0171c77-aeed-454c-b4ae-06abe7b27544",
+        "8880bfb6-8dc5-4fdd-a185-fd902aaa3ef5",
+        "35524ac1-88f8-454f-b23f-b88e344029f3",
+        "65381934-aa85-4e35-8317-bb905a196262",
+        "39546419-8020-423d-ae21-9634a7250386"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1644977071c121eca2": {
+      "type": "faq",
+      "blocks": {
+        "164497707168f526e0-0": {
+          "type": "category",
+          "settings": {
+            "title": "Subscription Management"
+          }
+        },
+        "164497707168f526e0-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I make changes to or cancel my subscription?",
+            "answer": "<p>Absolutely! You can add or remove products, swap flavors, skip shipments, or cancel anytime by logging into your account portal. Need extra help? Email us at hi@curehydration.com.<\/p><p>The cutoff time of when you can modify, skip, or cancel an order is before 12 AM EST on the day your subscription is set to renew.<\/p>"
+          }
+        },
+        "164497707168f526e0-2": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order that's processing or in transit?",
+            "answer": "<p>If your order has processed through our warehouse, we are not able to cancel it. We apologize for any inconvenience. That said, if you’ve placed an order within the last few hours, we may be able to help! Reach out to <a href=\"mailto:hi@curehydration.com\">hi@curehydration.com<\/a> as soon as possible, and we’ll see what we can do for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164497707168f526e0-0",
+        "164497707168f526e0-1",
+        "164497707168f526e0-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497707363a89df2": {
+      "type": "faq",
+      "blocks": {
+        "1644977073c6c0be16-0": {
+          "type": "category",
+          "settings": {
+            "title": "Return Policy"
+          }
+        },
+        "1644977073c6c0be16-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>We fully stand behind our product and are 100% committed to making sure our customers are happy. If for any reason you are unsatisfied with your order, please reach out to hi@curehydration.com and we'll make it right.<\/p><p>Please note that to ensure the quality and safety of our product, we cannot accept returns. We can offer a replacement or refund on one time purchase orders placed through our website containing one Starter Kit, one Variety Pack or one 14-count pouch , within 30 days of the original purchase date. To expedite your request, please include the following when you contact us at hi@curehydration.com:<\/p><p>your Cure order number2. a brief description of the issue and feedback on your experience3. your preference for a replacement or a refund<\/p><p>While we don’t accept returns or provide refunds for purchases made at retail locations, we recommend that you reach out directly to the retailer’s customer help center. That said, if you have any questions or feedback about Cure products, we’d love to hear from you. Please don’t hesitate to reach out to our team directly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977073c6c0be16-0",
+        "1644977073c6c0be16-1"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497713029c5e5ab": {
+      "type": "faq",
+      "blocks": {
+        "1644977130b90e614e-0": {
+          "type": "category",
+          "settings": {
+            "title": "Gift Cards"
+          }
+        },
+        "1644977130b90e614e-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer gift cards?",
+            "answer": "<p>Yes! Gift cards can be purchased directly on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a> for $25-$100 (in increments of $25). Gift cards are valid for one time purchase items made on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a>. Gift cards cannot be utilized for subscription purchases.<\/p><p>When you purchase a gift card, you will receive an email with the gift card code that you can personally forward to the intended recipient.<\/p><p>If you are the recipient of a gift card, you can enter in the gift card code and select apply before proceeding with shipping at checkout.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977130b90e614e-0",
+        "1644977130b90e614e-1"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16449772307d1bf3bd": {
+      "type": "faq",
+      "blocks": {
+        "16449772309f6ca504-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "16449772309f6ca504-1": {
+          "type": "question",
+          "settings": {
+            "title": "How much does shipping cost?",
+            "answer": "<p>We offer FREE U.S shipping for all domestic orders. We offer free shipping to Canada for orders over $50 USD. For all other international orders we offer free shipping over $100 USD. Should you be looking for faster or additional affordable international shipping options, we encourage you to order Cure from <a href=\"https:\/\/www.shopmayple.com\/collections\/vendors?q=Cure%20Hydration\"><span style=\"text-decoration:underline\">Mayple<\/span><\/a>.<\/p>"
+          }
+        },
+        "16449772309f6ca504-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to receive my order with free shipping?",
+            "answer": "<p>For orders placed on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a>, most U.S. orders should arrive within 4-8 business days. Canadian and all other international orders should arrive within 10-14 business days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16449772309f6ca504-0",
+        "16449772309f6ca504-1",
+        "16449772309f6ca504-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497731089630eac": {
+      "type": "faq",
+      "blocks": {
+        "1644977310a387b0ba-0": {
+          "type": "category",
+          "settings": {
+            "title": "Payment"
+          }
+        },
+        "1644977310a387b0ba-1": {
+          "type": "question",
+          "settings": {
+            "title": "When is my credit card charged for my subscription?",
+            "answer": "<p>Your card is charged the day your subscription renews and your order processes. If you make any changes after 12 AM EST on your renewal date, your order will have already been processed.<\/p>"
+          }
+        },
+        "1644977310a387b0ba-2": {
+          "type": "question",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "answer": "<p>We accept Visa, MasterCard, American Express, and Discover. You can also checkout by utilizing PayPal, Google Pay, or Apple Pay.<\/p>"
+          }
+        },
+        "1644977310a387b0ba-4": {
+          "type": "question",
+          "settings": {
+            "title": "How do I update my billing address or credit card on file for my subscription?",
+            "answer": "<p>To update your billing information, sign into your account. Once logged in, click “Manage Subscriptions” on the left-hand side of the screen, then select “Billing Information”. From there, you can edit your billing information by clicking “Edit” or your card on file by selecting “Update card”.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977310a387b0ba-0",
+        "1644977310a387b0ba-1",
+        "1644977310a387b0ba-2",
+        "1644977310a387b0ba-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497746480cc92da": {
+      "type": "faq",
+      "blocks": {
+        "1644977464a9536800-0": {
+          "type": "category",
+          "settings": {
+            "title": "The Cure Club: Loyalty & Rewards"
+          }
+        },
+        "1644977464a9536800-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>By signing up for an account on our website, you’ll automatically have a loyalty account.<\/p>"
+          }
+        },
+        "1644977464a9536800-2": {
+          "type": "question",
+          "settings": {
+            "title": "I’m a subscriber, does that make me a Loyalty Member?",
+            "answer": "<p>If you have created an account with us, yes!<\/p><p>Everyone can participate in Loyalty as long as they make an account on our website. With loyalty, you earn points based on purchases and actions.<\/p><p>Being a subscriber means you get discounts when you sign up for a monthly subscription of Cure. These purchases also award you points as a part of the loyalty program.<\/p>"
+          }
+        },
+        "1644977464a9536800-4": {
+          "type": "question",
+          "settings": {
+            "title": "How many points do I get for signing up?​​",
+            "answer": "<p>You automatically get 25 points for creating an account (or if you have already created an account with us).<\/p><p>You will also receive any points for spending that has occurred after the launch of our loyalty program, even if you haven’t created an account yet. If there are orders associated with your email, and then you create an account, we’ll give you those spending points as part of your new membership!<\/p>"
+          }
+        },
+        "8adb6d1c-082c-4da4-a974-54ac4eaa810a": {
+          "type": "question",
+          "settings": {
+            "title": "How do I earn points?",
+            "answer": "<p>You can earn 1 point for every $1 you spend on curehydration.com.<\/p><p>Also, certain activities (like following us on Instagram or leaving a product review) can give you extra bonus points. To find out all the ways you can earn points, check out our Rewards Page. Finally, we may run promotions from time to time where there will be unique opportunities to earn points.<\/p>"
+          }
+        },
+        "486d2629-a447-4b04-a337-5fa8a4e116d4": {
+          "type": "question",
+          "settings": {
+            "title": "When do points begin accumulating?",
+            "answer": "<p>Points began accumulating when we launched the program on October 12, 2021. Any purchases made on or after that date qualify for points, and are logged under your email address. Your points balance will appear if you create, or already have created, an account with this email address under “My Loyalty & Rewards.”<\/p>"
+          }
+        },
+        "6f8ac474-4560-4af0-997c-70ca936d7a8d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I redeem points?",
+            "answer": "<p>Just click \"Redeem Now\" under your points balance. This will generate a unique redemption code that you can copy and paste and then apply at checkout for your next order.<\/p>"
+          }
+        },
+        "772d4d44-c255-4108-8ee6-fcc1f2ae2b13": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I see my points balance?",
+            "answer": "<p>First, log in to your account! Your points balance will be on your rewards page.<\/p>"
+          }
+        },
+        "c8c3fcd6-fc2f-47f7-b727-d4183676667c": {
+          "type": "question",
+          "settings": {
+            "title": "Why can't I use all my points?",
+            "answer": "<p>Points can only be used in 100 point increments. So if you have 100 points, you can use that for $10 off at checkout. 200 points, $20. And so on.<\/p>"
+          }
+        },
+        "44353ef5-3e78-4611-b773-3e3b801252aa": {
+          "type": "question",
+          "settings": {
+            "title": "When do I get my birthday points?",
+            "answer": "<p>On your birthday! The only instance in which birthday points will be delayed is if your birthday is within 30 days of you signing up for The Cure Club. This is for fraud protection, and you will still get your points after 30 days.<\/p>"
+          }
+        },
+        "189be82d-ec57-46a3-b59a-6afef7c2353c": {
+          "type": "question",
+          "settings": {
+            "title": "Can I refer my friends?",
+            "answer": "<p>Yes, you can refer friends on <a href=\"http:\/\/www.curehydration.com\/pages\/referrals\">www.curehydration.com\/pages\/referrals<\/a>. Anyone you refer will receive $5 off their first $20+ purchase of Cure when they use your code. You will receive 50 points once they make their first purchase.<\/p>"
+          }
+        },
+        "323ee502-cb85-4e65-8ee5-8496a0c77277": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get points for purchasing Cure anywhere other than your website?",
+            "answer": "<p>Not at this time. Our loyalty program is currently exclusive to purchases made on curehydration.com.<\/p>"
+          }
+        },
+        "d57209d6-f241-497c-ab5a-410af43fcac1": {
+          "type": "question",
+          "settings": {
+            "title": "Do I keep points if I return a product?",
+            "answer": "<p>No, if you return a product, any points you have accumulated will be reversed.<\/p>"
+          }
+        },
+        "110f43f2-68dc-4349-8e40-161c917add39": {
+          "type": "question",
+          "settings": {
+            "title": "I forgot to use my points at Checkout, can I apply them retroactively?",
+            "answer": "<p>No, unfortunately points can not be redeemed after a purchase has already been made.<\/p>"
+          }
+        },
+        "289a1baa-2cb5-4e1c-a778-579ee46e91c7": {
+          "type": "question",
+          "settings": {
+            "title": "I’m a subscriber, do I qualify for the 50 bonus points for “First Subscription”?",
+            "answer": "<p>Yes, if you have a current active subscription we already dropped 50 bonus points into your account! If your subscription is not currently active, and you renew it, you will receive your 50 points.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977464a9536800-0",
+        "1644977464a9536800-1",
+        "1644977464a9536800-2",
+        "1644977464a9536800-4",
+        "8adb6d1c-082c-4da4-a974-54ac4eaa810a",
+        "486d2629-a447-4b04-a337-5fa8a4e116d4",
+        "6f8ac474-4560-4af0-997c-70ca936d7a8d",
+        "772d4d44-c255-4108-8ee6-fcc1f2ae2b13",
+        "c8c3fcd6-fc2f-47f7-b727-d4183676667c",
+        "44353ef5-3e78-4611-b773-3e3b801252aa",
+        "189be82d-ec57-46a3-b59a-6afef7c2353c",
+        "323ee502-cb85-4e65-8ee5-8496a0c77277",
+        "d57209d6-f241-497c-ab5a-410af43fcac1",
+        "110f43f2-68dc-4349-8e40-161c917add39",
+        "289a1baa-2cb5-4e1c-a778-579ee46e91c7"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "1644977071c121eca2",
+    "164497707363a89df2",
+    "164497713029c5e5ab",
+    "16449772307d1bf3bd",
+    "164497731089630eac",
+    "164497746480cc92da"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "164369348788477fdc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/cure-ambassador.jpg",
+        "subheading": "",
+        "title": "Hydrate.<br>Earn money.<br>Get free Cure.",
+        "content": "",
+        "button_text": "Become an Ambassador",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_right",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#baaa9e",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1643693779bf526817": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "Calling all hydration enthusiasts.",
+        "title": "We invite you to join our Cure Ambassador Program.",
+        "content": "<p>We created the Cure Ambassador Program to connect with and support people all over the world who are both inspiring and inspired... individuals from different backgrounds, disciplines, and walks of life who all share these common beliefs and who passionately pursue what they love to do.<\/p>",
+        "button_text": "Apply Now",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1643693491109357bf": {
+      "type": "custom-image-text",
+      "settings": {
+        "title": "",
+        "title_left": "We invite you to join our Cure Ambassador Program.",
+        "content_left": "<p>We created the Cure Ambassador Program to connect with and support people all over the world who are both inspiring and inspired... individuals from different backgrounds, disciplines, and walks of life who all share these common beliefs and who passionately pursue what they love to do.<\/p>",
+        "title_right": "",
+        "content_right": "<p><a href=\"https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand\" target=\"_blank\" title=\"https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand\">Apply Now<\/a><\/p>"
+      }
+    },
+    "16436909334a5853b5": {
+      "type": "custom-image-text",
+      "disabled": true,
+      "settings": {
+        "title": "Hydrate.  Earn money.  Get free Cure.",
+        "image": "shopify:\/\/shop_images\/cure-ambassador.jpg",
+        "title_left": "We invite you to join our Cure Ambassador Program.",
+        "content_left": "<p>We created the Cure Ambassador Program to connect with and support people all over the world who are both inspiring and inspired... individuals from different backgrounds, disciplines, and walks of life who all share these common beliefs and who passionately pursue what they love to do.<\/p>",
+        "title_right": "",
+        "content_right": "<p><a href=\"https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand\" target=\"_blank\" title=\"https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand\">Become an ambassador<\/a><\/p>"
+      }
+    },
+    "16436898185d148853": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1643689817f89da993-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-mobile",
+            "title": "Sign Up",
+            "content": "<p>It's easy! Just fill out our signup form and you'll be on your way.<\/p>"
+          }
+        },
+        "1643689817f89da993-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "title": "Share your cure",
+            "content": "<p>Post on social media, tell your friends, share your promo code.<\/p>"
+          }
+        },
+        "1643689817f89da993-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-donation",
+            "title": "Earn Money & freebies",
+            "content": "<p>Receive up to 20% commission for orders using your code or link.<\/p>"
+          }
+        },
+        "1643689817f89da993-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/CURE_Icons_a91e0236-af84-4c16-8b9c-a6b0f101c999.png",
+            "title": "Hydrate & repeat",
+            "content": "<p>Get free product. Stay hydrated. Stay you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1643689817f89da993-0",
+        "1643689817f89da993-1",
+        "1643689817f89da993-2",
+        "1643689817f89da993-3"
+      ],
+      "settings": {
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1643690085dd5488f4": {
+      "type": "image-with-text",
+      "blocks": {
+        "16436900850c120709-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_10_HomeVibes_773_SL_1.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Who should apply?",
+            "content": "<p>People in the pursuit of well-being, Healthy hydration enthusiasts, Influencers of all types such as Bloggers, Instagrammers, Youtubers or Microinfluencers.<\/p><p>Hydration is for everyone!<\/p>",
+            "button_text": "Apply now",
+            "button_link": "https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand"
+          }
+        }
+      },
+      "block_order": [
+        "16436900850c120709-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1643690158a93dc4b2": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "What are you waiting for?",
+        "content": "",
+        "button_text": "Join Us",
+        "button_link": "https:\/\/app.impact.com\/advertiser-advertiser-info\/Cure-Inc.brand",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164369348788477fdc",
+    "1643693779bf526817",
+    "1643693491109357bf",
+    "16436909334a5853b5",
+    "16436898185d148853",
+    "1643690085dd5488f4",
+    "1643690158a93dc4b2"
+  ]
+}

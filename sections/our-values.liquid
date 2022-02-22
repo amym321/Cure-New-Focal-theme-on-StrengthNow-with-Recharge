@@ -1,0 +1,80 @@
+<div class="our-values--section-wrapper">
+  <div class="container">
+      {%- if section.settings.title != blank -%}
+      <header class="section__header text-container text-left">
+        <h1 class="heading h2">{{ section.settings.title | escape }}</h1>        
+      </header>
+      {%- endif -%}
+    
+      <div class="our-values_items">
+        
+        {%- for block in section.blocks -%}
+        <div class="our-values_item">
+          <div class="our-values_num">
+            0{{ forloop.index }}
+          </div>
+          <div class="our-values_content">
+            {% if block.settings.title != blank %}
+            <h3 class="heading h4">
+              {{ block.settings.title }}
+            </h3>
+            {% endif %}
+            {% if block.settings.content != blank %}
+            <div class="rte">
+              {{ block.settings.content }}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {%- endfor -%}
+        
+      </div>
+    
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Our Values",
+	"class": "shopify-section--our-values",
+    "settings": [
+		{
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Our Values"
+        }
+	],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Our Values"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

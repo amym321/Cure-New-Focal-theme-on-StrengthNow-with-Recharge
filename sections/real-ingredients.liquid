@@ -1,0 +1,98 @@
+<div class="real-ingredients--section-wrapper">
+  <div class="container">
+    <div class="real-ingredients">
+      <div class="real-ingredients_right mobile_show">
+        {%- if section.settings.title != blank -%}
+        <h1 class="heading h2">{{ section.settings.title }}</h1>        
+        {%- endif -%}
+        <div class="rte">
+          {{ section.settings.description }}
+        </div>
+      </div>
+      <div class="real-ingredients_left">
+        {%- for block in section.blocks -%}
+          {% if forloop.first %}
+          <img src="{{ block.settings.image | img_url:'master' }}">
+          {% endif %}
+        {%- endfor -%}
+      </div>
+      <div class="real-ingredients_right">
+        {%- if section.settings.title != blank -%}
+        <h1 class="heading h2 mobile_hide">{{ section.settings.title }}</h1>        
+        {%- endif -%}
+        <div class="rte  mobile_hide">
+          {{ section.settings.description }}
+        </div>
+        <div class="ingredients__items">
+          {%- for block in section.blocks -%}
+            {% if block.settings.title != blank %}
+            <div class="ingredient__item {% if forloop.first %}active_text{% endif %}">
+              <div class="ingredient__title">
+                <sup>{{ forloop.index }}</sup> {{ block.settings.title }}
+              </div>
+              <div class="rte_content hidden">
+                {{ block.settings.content }}
+              </div>
+              <img class="hidden" src="{{ block.settings.image | img_url:'master' }}">
+            </div>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Real Ingredients",
+    "settings": [
+		{
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Real Ingredients"
+        },
+		{
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+	],
+    "blocks": [
+      {
+        "type": "ingredient",
+        "name": "Ingredient",
+        "settings": [
+		  {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Real Ingredients"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

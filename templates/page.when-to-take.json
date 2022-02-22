@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "1645153152715d1c99": {
+      "type": "logo-list",
+      "blocks": {
+        "16451531529621335a-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/j30qLnEc6dCrLlyOVWoqDsnP1qgXM24D.png",
+            "link": ""
+          }
+        },
+        "16451531529621335a-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/cvs-pharmacy-logo-stacked.png",
+            "link": ""
+          }
+        },
+        "16451531529621335a-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16451531529621335a-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16451531529621335a-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16451531529621335a-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16451531529621335a-0",
+        "16451531529621335a-1",
+        "16451531529621335a-2",
+        "16451531529621335a-3",
+        "16451531529621335a-4",
+        "16451531529621335a-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Brands",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1645153152715d1c99"
+  ]
+}

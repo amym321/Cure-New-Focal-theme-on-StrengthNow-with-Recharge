@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1638305987ba59f261": {
+      "type": "image-with-text",
+      "blocks": {
+        "16383059864df5787e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_12_Portrait_883_SL.jpg",
+            "tab_label": "Item",
+            "subheading": "Meet Lauren, Founder of Cure",
+            "title": "“The sports drink I wanted didn’t exist.”",
+            "content": "<p>Whether I was training for a triathlon, skiing all day, or sweating it out in hot yoga, recovery was always a challenge. I’d feel dizzy or nauseous after long workouts and always seemed to hit that dreaded afternoon slump. I was drinking plenty of water, but it wasn’t enough (and I wasn't about to drink a sugary sports drink!). <\/p><p>So I decided to create a solution that could hydrate effectively but contained only organic, premium ingredients and no added sugar. When it comes to our health, we shouldn't have to make trade-offs. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16383059864df5787e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "163917582848fee845": {
+      "type": "timeline",
+      "blocks": {
+        "1639175828f0146689-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTS_Free_to_Roam_Maresa_Smith_1606.jpg",
+            "label": "The Challenge",
+            "title": "Taking care of ourselves is more important than ever. ",
+            "content": "<p>But when it comes to trying to take the best care of ourselves, the path forward isn’t always clear. There’s a lot of noise out there—different perspectives on what works and an overwhelming number of products that proclaim to have the answer.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1639175828f0146689-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTS_Our_Summer_Daniel_Faro_5808.jpg",
+            "label": "The Question",
+            "title": "“Is this good for me or not?”",
+            "content": "<p>We strive to remove the complexity and uncertainty from the equation so that people don’t have to wonder... “Is this good for me or not?”<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1639175828f0146689-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_09_Kitchen_711.jpg",
+            "label": "The Opportunity",
+            "title": "We believe that there shouldn’t be a trade-off",
+            "content": "<p> between “organic” vs. “effective” or “science-backed” vs. “holistic.” <\/p><p>Our pledge is to create products that use premium and organic ingredients and are scientifically proven to be effective.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639175828f0146689-0",
+        "1639175828f0146689-1",
+        "1639175828f0146689-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Our Purpose",
+        "text_position": "bottom",
+        "background": "#f4f2ef",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "#ffffff",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16391745459c0ec2ea": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5838.jpg",
+        "subheading": "",
+        "title": "We exist to empower you to live a better and healthier life with clean and effective products.",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#3e7b8f",
+        "overlay_opacity": 32
+      }
+    },
+    "16430022133f43b3d0": {
+      "type": "our-values",
+      "disabled": true,
+      "blocks": {
+        "d708db0a-ae08-412a-800d-82c06beb5504": {
+          "type": "block",
+          "settings": {
+            "title": "Simple",
+            "content": "<p>Easy-to-keep health rituals you can feel great about. Because it’s the small, consistent habits that make the biggest impact<\/p>"
+          }
+        },
+        "b23c99e1-995a-41f3-9691-28575372706a": {
+          "type": "block",
+          "settings": {
+            "title": "Effective",
+            "content": "<p>Science-backed products founded on the WHO formula for dehydration. Cure is the better choice for everyday life.<\/p>"
+          }
+        },
+        "a8e4f775-fdc0-4c97-8ee2-a3207c6f4003": {
+          "type": "block",
+          "settings": {
+            "title": "Clean",
+            "content": "<p>No added sugar, no artificial junk. Plant-based, non-gmo, vegan, gluten free, no bad stuff. Only the best ingredients for you and earth.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d708db0a-ae08-412a-800d-82c06beb5504",
+        "b23c99e1-995a-41f3-9691-28575372706a",
+        "a8e4f775-fdc0-4c97-8ee2-a3207c6f4003"
+      ],
+      "settings": {
+        "title": "Our Values"
+      }
+    },
+    "164469906732db0da9": {
+      "type": "multi-column",
+      "blocks": {
+        "1644699067e6599872-0": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Simple",
+            "content": "<p>Easy-to-keep health rituals you can feel great about. Because it’s the small, consistent habits that make the biggest impact<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "1644699067e6599872-1": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Effective",
+            "content": "<p>Science-backed products founded on the WHO formula for dehydration. Cure is the better choice for everyday life.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "1644699067e6599872-2": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Clean",
+            "content": "<p>No added sugar, no artificial junk. Plant-based, non-gmo, vegan, gluten free, no bad stuff. Only the best ingredients for you and earth.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1644699067e6599872-0",
+        "1644699067e6599872-1",
+        "1644699067e6599872-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "Our Values",
+        "content": "",
+        "column_alignment": "left",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639173550ee092baa": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1638307034472bbb69": {
+      "type": "featured-collections",
+      "blocks": {
+        "1638307034dc001520-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638307034dc001520-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop Now",
+        "title2": "Shop Now",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1638305987ba59f261",
+    "163917582848fee845",
+    "16391745459c0ec2ea",
+    "16430022133f43b3d0",
+    "164469906732db0da9",
+    "1639173550ee092baa",
+    "1638307034472bbb69"
+  ]
+}

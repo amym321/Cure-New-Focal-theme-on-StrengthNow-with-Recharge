@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1643694401cd65e0f1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Questions? Comments? Just want to say hi?",
+        "title": "Reach out via the form below.",
+        "content": "<p>or contact us directly at <a href=\"mailto:hi@curehydration.com\" target=\"_blank\" title=\"mailto:hi@curehydration.com\">HI@CUREHYDRATION.COM<\/a><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16436946298c318668": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Please allow up to 48 hours for us to get back to you.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1642996267f470eb1b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Interested in our Ambassador program?",
+        "content": "<p>email us at <a href=\"mailto:ambassador@curehydration.com\" target=\"_blank\"><span style=\"text-decoration:underline\">AMBASSADOR@CUREHYDRATION.COM<\/span><\/a><\/p>",
+        "button_text": "or Find out more here",
+        "button_link": "shopify:\/\/pages\/become-an-ambassador",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643694401cd65e0f1",
+    "contact-form",
+    "16436946298c318668",
+    "1642996267f470eb1b"
+  ]
+}

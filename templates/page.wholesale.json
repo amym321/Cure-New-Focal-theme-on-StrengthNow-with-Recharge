@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "164370095490512c53": {
+      "type": "multi-column",
+      "blocks": {
+        "16437009546203d0ee-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1icons.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Free returns",
+            "content": "<p>for risk–free buying<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16437009546203d0ee-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_2icons.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Net 60 terms",
+            "content": "<p>for stress–free payments<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16437009546203d0ee-0",
+        "16437009546203d0ee-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Order Wholesale",
+        "content": "<p>We've partnered with Faire to offer you:<\/p>",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1643700590618ad22b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "New to faire?",
+        "title": "",
+        "content": "<p>You'll get USD $100 off your first order, <em>plus <\/em>free shipping with us for an entire year<\/p>",
+        "button_text": "Shop Wholesale",
+        "button_link": "https:\/\/curehydration.faire.com\/welcome\/r\/personal?signUp=widget&widgetToken=bw_druq37273z",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1643700300f9e45e6c": {
+      "type": "text-with-icons",
+      "blocks": {
+        "164370030013aa6f03-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "title": "Minimum",
+            "content": "<p>$200<\/p>"
+          }
+        },
+        "164370030013aa6f03-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-address",
+            "title": "Shipping From",
+            "content": "<p>South Brunswick Township, NJ<\/p>"
+          }
+        },
+        "164370030013aa6f03-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "title": "Lead Time",
+            "content": "<p>1-3 Days<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164370030013aa6f03-0",
+        "164370030013aa6f03-1",
+        "164370030013aa6f03-2"
+      ],
+      "settings": {
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164370095490512c53",
+    "1643700590618ad22b",
+    "1643700300f9e45e6c"
+  ]
+}
