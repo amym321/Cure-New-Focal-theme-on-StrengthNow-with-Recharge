@@ -192,20 +192,19 @@
           "af372627-da31-4bee-9a72-b3b4dd9193d7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/curelogo.png",
               "image_width": 100
             }
           },
           "links": {
             "type": "links",
             "settings": {
-              "menu": "cure"
+              "menu": ""
             }
           },
           "96e3b714-646c-45d5-aa87-8a7759c6f017": {
             "type": "links",
             "settings": {
-              "menu": "shop"
+              "menu": ""
             }
           },
           "6a86f212-f903-40fc-9540-096b651c7e63": {
@@ -254,7 +253,6 @@
           "show_only_on_index": true,
           "show_only_for_visitors": true,
           "show_only_once": true,
-          "image": "shopify:\/\/shop_images\/Untitled-5.jpg",
           "image_position": "left",
           "title": "Get 10% off",
           "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
@@ -323,7 +321,6 @@
         "settings": {
           "show_section": false,
           "reveal_on_scroll": true,
-          "image": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5837.jpg",
           "subheading": "Subscribe to our newsletter",
           "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
           "text_position": "center",
@@ -337,7 +334,7 @@
       "announcement-bar-marquee": {
         "type": "announcement-bar-marquee",
         "settings": {
-          "show_announcement_bar": true,
+          "show_announcement_bar": false,
           "background": "#f5f2f1",
           "text_color": "#baaa9e",
           "link_hover_color": "#ccb9aa",
@@ -360,19 +357,15 @@
             "settings": {
               "menu_item": "Shop",
               "images_position": "right",
-              "image_1": "shopify:\/\/shop_images\/ShopAll.jpg",
               "image_1_heading": "Shop All",
               "image_1_text": "",
               "image_1_link": "shopify:\/\/collections\/shop-all",
-              "image_2": "shopify:\/\/shop_images\/Hydration.jpg",
               "image_2_heading": "Hydration",
               "image_2_text": "",
               "image_2_link": "shopify:\/\/collections\/hydration",
-              "image_3": "shopify:\/\/shop_images\/Energy.jpg",
               "image_3_heading": "Energy",
               "image_3_text": "",
               "image_3_link": "shopify:\/\/collections\/energy",
-              "image_4": "shopify:\/\/shop_images\/cure-bottle.jpg",
               "image_4_heading": "Extras",
               "image_4_text": "",
               "image_4_link": "shopify:\/\/collections\/extras",
@@ -389,22 +382,18 @@
             "settings": {
               "menu_item": "Learn",
               "images_position": "right",
-              "image_1": "shopify:\/\/shop_images\/211122_CL_Cure_12_Portrait_895_22fe747d-ac98-44de-9886-7f27738f0a7b.jpg",
               "image_1_heading": "Our Story",
               "image_1_text": "",
               "image_1_link": "shopify:\/\/pages\/our-story",
               "image_2_heading": "",
               "image_2_text": "",
               "image_2_link": "",
-              "image_3": "shopify:\/\/shop_images\/DTS_Skin_Deep_Daniel_Faro_4245.png",
               "image_3_heading": "Science-backed hydration",
               "image_3_text": "",
               "image_3_link": "shopify:\/\/pages\/science-backed-hydration",
-              "image_4": "shopify:\/\/shop_images\/DTS_la_calma_Parole_Dure_5850-_1.png",
               "image_4_heading": "Social Impact",
               "image_4_text": "",
               "image_4_link": "shopify:\/\/pages\/social-impact-1",
-              "image_5": "shopify:\/\/shop_images\/DTS_Our_Summer_Daniel_Faro_5808.jpg",
               "image_5_heading": "Blog",
               "image_5_text": "",
               "image_5_link": "shopify:\/\/blogs\/blog",
@@ -420,11 +409,10 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/curelogo-coconut.png",
           "logo_max_width": 130,
           "mobile_logo_max_width": 130,
-          "navigation_menu": "menu-left",
-          "navigation_menu2": "menu-right",
+          "navigation_menu": "",
+          "navigation_menu2": "",
           "sidebar_navigation_menu": "main-menu",
           "header_layout": "logo_center_navigation_inline",
           "show_icons": false,
@@ -433,7 +421,6 @@
           "show_currency_selector": true,
           "enable_transparent_header": true,
           "transparent_header_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/curelogo.png",
           "search_menu": "main-menu"
         }
       },

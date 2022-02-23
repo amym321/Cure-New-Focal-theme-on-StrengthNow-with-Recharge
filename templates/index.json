@@ -2,6 +2,7 @@
   "sections": {
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b": {
           "type": "image",
@@ -92,6 +93,7 @@
     },
     "164201542823e3eefd": {
       "type": "logo-list-custom",
+      "disabled": true,
       "blocks": {
         "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c": {
           "type": "logo",
@@ -150,6 +152,7 @@
     },
     "featured-collections": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "collection-1": {
           "type": "collection",
@@ -191,6 +194,7 @@
     },
     "1642353324ee7a7c6a": {
       "type": "custom-comparison-chart",
+      "disabled": true,
       "settings": {
         "section_height": "large",
         "title": "Hydrating Electrolyte Mix",
@@ -230,6 +234,7 @@
     },
     "163466717944ea241f": {
       "type": "press",
+      "disabled": true,
       "blocks": {
         "9604c39c-49a2-41ca-bfee-161bc3ab18d0": {
           "type": "item",
@@ -283,6 +288,7 @@
     },
     "16390810401838be79": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "large",
@@ -304,6 +310,7 @@
     },
     "1639081552440f5ba3": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "large",
@@ -325,6 +332,7 @@
     },
     "1637089602f412eaf0": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "subheading": "Subscribe & Save",
         "title": "20% off or more when you subscribe",
@@ -343,6 +351,7 @@
     },
     "163821349540768c96": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "16382134953a149dda-2": {
           "type": "item",
@@ -399,6 +408,7 @@
     },
     "shop-the-look": {
       "type": "shop-the-look",
+      "disabled": true,
       "blocks": {
         "look-1": {
           "type": "look",
@@ -432,6 +442,7 @@
     },
     "timeline": {
       "type": "timeline",
+      "disabled": true,
       "blocks": {
         "item-1": {
           "type": "item",
@@ -470,6 +481,7 @@
     },
     "16346648411d27afc9": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "16346648411d27afc9-2": {
           "type": "item",
@@ -529,6 +541,7 @@
     },
     "1642176088107c40ad": {
       "type": "testimonials-custom",
+      "disabled": true,
       "blocks": {
         "70d7f041-2f65-4401-aae2-33ed2a747f92": {
           "type": "text",
