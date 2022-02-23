@@ -92,6 +92,14 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     <script src="//code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+<script>
+window.rechargeCustomTheme = {
+    selectors: {
+        injectionParent: '.rc-widget-injection-parent',
+    }
+}
+</script>
+
 
     {{ content_for_header }}
   </head>
