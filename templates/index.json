@@ -442,11 +442,11 @@
     },
     "timeline": {
       "type": "timeline",
-      "disabled": true,
       "blocks": {
         "item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2108_2.jpg",
             "label": "Hydration",
             "title": "Hydration is the foundation of health. But science shows that staying hydrated often requires more than water alone. That’s why we made our Hydrating Electrolyte Mix.",
             "content": "",
@@ -457,6 +457,7 @@
         "item-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/VINTAGE-LETTER-LIGHT-3.jpg",
             "label": "Energy",
             "title": "Caffeine is our go-to source of energy, whether we’re starting our day, working out, or hitting that afternoon slump. But your caffeine should be doing more than just waking you up. That’s why we made our Energizing Drink Mixes.",
             "content": "",
