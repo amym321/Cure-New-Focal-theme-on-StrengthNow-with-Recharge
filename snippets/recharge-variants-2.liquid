@@ -1,0 +1,223 @@
+{%- comment -%} fields for subscription - am {%- endcomment -%}
+{%- if product.tags contains "packs" -%}
+  {%- assign packs = true -%}
+{%- else -%}
+  {%- assign packs = false -%}
+{%- endif -%}
+
+<h3>Subscription................One Time Purchase</h3>
+<h3>1-{{ product.variants[0] | t }}</h3>
+<h5>2-{{ variants[0] | t }}</h5>
+<h4>3- {{ product.variants[0].option_values | t }} </h4>
+<h3>4-{{ product.variants[0].prices[0].plans[0].discounted_price | money  }}</h3>
+<h2 class="success">5-{{ product.selling_plan_groups[0].selling_plans[0].id | t }}</h2>
+<h2>6-{{ product.variants[0].selling_plan_groups[0].selling_plans[0].discounted_price | money }}</h2>
+<h3>7-{{ variants[0].prices[0].plans[0].discounted_price | money  }}</h3>
+<h3>8-{{ product.variants[0].prices[0].plans[0].discounted_price | money  }}</h3>
+<h3>9-{{ product.variants[0].prices[0].plans[0].discounted_price | money  }}</h3>
+<h2>10-{{ product.variants[0].prices[0].plans[0].discount_value | t }}</h2>
+<h5>11-{{ product.selling_plan_groups[0].selling_plans[0].price_adjustments  }}</h5>
+<h4>12-{{ product.variants[0].selling_plan_allocation.price | money }}</h4>
+<h4>13-{{ selling_plan_allocation.price_adjustments[0].price | money }}</h4>
+
+<h5>Pay {{ selling_plan_allocation.price_adjustments[0].price | money }} on
+  the first {{ selling_plan.price_adjustments[0].order_count }} orders.</h5>
+
+<h5>20-{{ selling_plan_allocation.price | money }}
+  {% if selling_plan_allocation.per_delivery_price != selling_plan_allocation.price %}
+    29-({{selling_plan_allocation.per_delivery_price }} each)
+  {% endif %}</h5>
+
+  {% for variant in product.variants %}
+      {% for allocation in variant.selling_plan_allocations %}
+          30-{{ allocation.selling_plan.name }}<br>
+          31-{{ allocation.selling_plan.price }}<br>
+          32-{{ allocation.selling_plan.value }}<br>
+      {% endfor %}
+  {% endfor %}<br>
+
+  {% for option in selling_plan.options %}
+    33-{{ option.name }} : {{ option.value }}
+  {% endfor %}
+
+  35-{{ offer.price | money }}
+
+<h4>code block</h4>
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant | default: product.variants.first
+  assign current_selling_plan_allocation = current_variant.selected_selling_plan_allocation
+ 
+  if current_selling_plan_allocation == nil and current_variant.requires_selling_plan
+   assign current_selling_plan_allocation = current_variant.selling_plan_allocations | first
+  endif
+ 
+  assign offer = current_selling_plan_allocation | default: current_variant
+ -%}
+ 
+ {{ product.title }}
+ {{ offer.price | money }}<br>
+ 
+ {% if offer.compare_at_price > offer.price %}
+   <s>{{ offer.compare_at_price | money }}</s>
+   <span>{% if offer.selling_plan %}Subscription{% else %}Sale{% endif %}</span>
+ {% endif %}
+ 
+ {% form 'product', product %}
+   <input type="hidden" name="id" value="{{ current_variant.id }}">
+   <input type="hidden" name="selling_plan" value="{{ current_selling_plan_allocation.selling_plan.id | default: '' }}">
+ 
+   <fieldset>
+     <legend>Product options</legend>
+ 
+     {% for option in product.options_with_values %}
+       <label>{{ option.name }}</label>
+ 
+       <select>
+         {% for value in option.values %}
+           <option>{{ value }}</option>
+         {% endfor %}
+       </select>
+     {% endfor %}
+   </fieldset>
+ 
+   <!-- Pass the product object as JSON so it can be used to update selling plan information using JavaScript -->
+   <fieldset class="selling-plan-fieldset" data-product={{ product | json }}>
+     <legend>Purchase options</legend>
+     {% unless product.requires_selling_plan %}
+     <input type="radio" name="purchase_option"> One-time purchase
+     {% endunless %}
+ 
+     {% for group in product.selling_plan_groups %}
+       <input type="radio" name="purchase_option"> {{ group.name}}
+ 
+       {% for option in group.options %}
+         <label>{{ option.name }}</label>
+ 
+         <select data-position="{{ option.position }}">
+           {% for value in option.values %}
+             <option>{{ value }}</option>
+           {% endfor %}
+         </select>
+       {% endfor %}
+     {% endfor %}
+   </fieldset>
+ {% endform %}
+ 
+
+
+<h4>Loop<br>
+  {% for selling_plan_group in product.selling_plan_groups %}
+    {% for selling_plan in selling_plan_group.selling_plans %}
+      14-{{ selling_plan.name }}<br>
+      15-{{ selling_plan.description }}<br>
+      16-{{ selling_plan_allocation.price_adjustments[0].price | money }}<br>
+      17-{{ selling_plan.price_adjustments[0].order_count }}<br>
+      18-{{ selling_plan.price_adjustments[0]  }}<br>
+      21- Pay {{ selling_plan_allocation.price_adjustments[0].price | money }} on
+        the first {{ selling_plan.price_adjustments[0].order_count }} orders.<br>
+      
+      22-{{ selling_plan_allocation.price | money }}
+        {% if selling_plan_allocation.per_delivery_price != selling_plan_allocation.price %}
+          ({{selling_plan_allocation.per_delivery_price }} each)
+        {% endif %}<br>
+
+      23-{{ selling_plan_allocation.price | money }}
+    {% endfor %}
+  {% endfor %}
+</h4>
+
+<div class="block-swatch-list">
+  {% comment %} Subscription variants- am {% endcomment %}
+  {%- if packs -%}
+    {%- for variant in product.variants -%}
+      <div class="block-swatch">
+        <input class="block-swatch__radio visually-hidden" type="radio" name="option{{ option.position }}" form="{{ product_form_id }}" id="{{ option_id }}-{{ forloop.index }}" value="{{ value | escape }}" {% if value == option.selected_value %}checked="checked"{% endif %} data-bind-value="{{ option_id }}-value">
+        <label class="block-swatch__item" for="{{ option_id }}-{{ forloop.index }}">
+          
+              <span>
+              {{ variants[0].prices[0].plans[0].discounted_price | money  }}
+              {{ current_variant.prices.plans.discounted_price | money  }}
+              {{ current_variant.discounted_price | money }}
+              {{ current_variants.prices.plans.discount_value }}
+              {{ variant.selling_plan_groups[0].selling_plans[0].discounted_price | money }}
+
+              {{ variants[0].prices[0].plans[0].discounted_price | money  }}
+              {{ variant.prices[0].plans[0].discounted_price | money  }}
+              {{ variant.prices.plans.discounted_price | money  }}
+              {{ variant.discounted_price | money }}
+              {{ variant.prices.plans.discount_value }}
+
+              {{ prices[0].plans[0].discounted_price | money  }}
+              {{ prices.plans.discounted_price | money  }}
+              {{ discounted_price | money }}
+              {{ prices.plans.discount_value }}
+
+
+              {{ variant.selling_plan_allocation.price | money  }}
+              {{ selling_plan_allocation.price | money  }}
+              </span>
+              <script>
+                console.log('1' + variants[0].prices[0].plans[0].discounted_price);
+                console.log('2' + current_variant.prices.plans.discounted_price);
+                console.log('3' + current_variant.discounted_price);
+                console.log('4' + current_variants.prices.plans.discount_value);
+
+                console.log('5' + variants[0].prices[0].plans[0].discounted_price);
+                console.log('6' + variant.prices.plans.discounted_price);
+                console.log('7' + variant.discounted_price);
+                console.log('8' + variant.prices.plans.discount_value);
+
+                console.log('9' + prices[0].plans[0].discounted_price);
+                console.log('10' + prices.plans.discounted_price);
+                console.log('11' + discounted_price);
+                console.log('12' + prices.plans.discount_value);
+
+                console.log(variant.selling_plan_allocation.price);
+                console.log(selling_plan_allocation.price);
+              </script>
+
+          {{ variant.title }}<br>
+          {%- if settings.currency_code_enabled -%}
+            <span style="text-decoration:line-through;">{{- variant.compare_at_price  | money_with_currency -}}</span><br>{{- variant.price  | money_with_currency -}}
+          {%- else -%}
+            <span style="text-decoration:line-through; font-size:smaller;">{{- variant.compare_at_price | money -}}</span><br>{{- variant.price | money -}}
+          {%- endif -%}
+        </label>
+      </div>
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- for variant in product.variants -%}
+    <div class="block-swatch">
+      <input class="block-swatch__radio visually-hidden" type="radio" name="option{{ option.position }}" form="{{ product_form_id }}" id="{{ option_id }}-{{ forloop.index }}" value="{{ value | escape }}" {% if value == option.selected_value %}checked="checked"{% endif %} data-bind-value="{{ option_id }}-value">
+      <label class="block-swatch__item" for="{{ option_id }}-{{ forloop.index }}">
+        {{ variant.title }}<br>
+        {%- if settings.currency_code_enabled -%}
+          <span style="text-decoration:line-through;">{{- variant.compare_at_price  | money_with_currency -}}</span><br>{{- variant.price  | money_with_currency -}}
+        {%- else -%}
+          <span style="text-decoration:line-through; font-size:smaller;">{{- variant.compare_at_price | money -}}</span><br>{{- variant.price | money -}}
+        {%- endif -%}
+      </label>
+    </div>
+  {%- endfor -%}
+
+</div>
+
+<script>  
+  function addItemToCart(variant_id, qty, selling_plan) {
+    data = {
+      "id": variant_id,
+      "quantity": qty,
+      "selling_plan": selling_plan
+    }
+    jQuery.ajax({
+      type: 'POST',
+      url: '/cart/add.js',
+      data: data,
+      dataType: 'json',
+      success: function() { 
+      window.location.href = '/cart'; 
+    }
+  });
+  }
+</script> 

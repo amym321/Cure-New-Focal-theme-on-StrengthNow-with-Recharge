@@ -2038,7 +2038,6 @@ console.log('11 - vendor > var eventsArr, swiperight');
     setListener(doc, touchevents.touchstart + (defaults.justTouchEvents ? "" : " mousedown"), onTouchStart);
     setListener(doc, touchevents.touchend + (defaults.justTouchEvents ? "" : " mouseup"), onTouchEnd);
     setListener(doc, touchevents.touchmove + (defaults.justTouchEvents ? "" : " mousemove"), onTouchMove);
-  console.log('15 - vendor.js > setListener  touchStart');
 
     win.tocca = function(options) {
       for (var opt in options) {

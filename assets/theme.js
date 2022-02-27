@@ -4296,6 +4296,8 @@
   // js/custom-element/section/timeline/timeline.js
   var Timeline = class extends HTMLElement {
     connectedCallback() {
+      // var screen_width = screen.width;
+
       this.prevNextButtons = this.querySelector("prev-next-buttons");
       this.pageDots = this.querySelector("page-dots");
       this.scrollBarElement = this.querySelector(".timeline__progress-bar");
@@ -4306,8 +4308,11 @@
         this.addEventListener("prev-next:prev", this.previous.bind(this));
         this.addEventListener("prev-next:next", this.next.bind(this));
         // added Tocca swiperight, swipeleft - am
-        this.addEventListener("swiperight", this.previous.bind(this));
-        this.addEventListener("swipeleft", this.next.bind(this));
+        // if (screen_width > 912){
+        if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+          this.addEventListener("swiperight", this.previous.bind(this));
+          this.addEventListener("swipeleft", this.next.bind(this));
+        }
         this.addEventListener("page-dots:changed", (event) => this.select(event.detail.index));
         if (Shopify.designMode) {
           this.addEventListener("shopify:block:select", (event) => {

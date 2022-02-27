@@ -20,7 +20,15 @@
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
       {%- when 'variant_picker' -%}
-        {%- unless product.has_only_default_variant or block.settings.hide_sold_out_variants and product.available == false -%}
+
+          {%- comment -%} fields for subscription - am {%- endcomment -%}
+          {%- if product.tags contains "packs" -%}
+            {%- assign packs = true -%}
+          {%- else -%}
+            {%- assign packs = false -%}
+          {%- endif -%}
+
+          {%- unless product.has_only_default_variant or block.settings.hide_sold_out_variants and product.available == false -%}
           {%- assign size_chart_page = block.settings.size_chart_page -%}
           {%- assign found_size_option = false -%}
 
@@ -99,14 +107,18 @@
                     </div>
 
                   {%- when 'block' -%}
-                    <div class="block-swatch-list">
-                      {%- for value in option.values -%}
-                        <div class="block-swatch">
-                          <input class="block-swatch__radio visually-hidden" type="radio" name="option{{ option.position }}" form="{{ product_form_id }}" id="{{ option_id }}-{{ forloop.index }}" value="{{ value | escape }}" {% if value == option.selected_value %}checked="checked"{% endif %} data-bind-value="{{ option_id }}-value">
-                          <label class="block-swatch__item" for="{{ option_id }}-{{ forloop.index }}">{{ value }}</label>
-                        </div>
-                      {%- endfor -%}
-                    </div>
+                    {%- if packs -%}
+                      {% render 'recharge-variants-2' %}
+                    {%- else -%}
+                      <div class="block-swatch-list">
+                        {%- for value in option.values -%}
+                          <div class="block-swatch">
+                            <input class="block-swatch__radio visually-hidden" type="radio" name="option{{ option.position }}" form="{{ product_form_id }}" id="{{ option_id }}-{{ forloop.index }}" value="{{ value | escape }}" {% if value == option.selected_value %}checked="checked"{% endif %} data-bind-value="{{ option_id }}-value">
+                            <label class="block-swatch__item" for="{{ option_id }}-{{ forloop.index }}">{{ value }}</label>
+                          </div>
+                        {%- endfor -%}
+                      </div>
+                    {%- endif -%}
 
                   {%- when 'dropdown' -%}
                     <div class="select-wrapper">
